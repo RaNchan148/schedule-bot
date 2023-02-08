@@ -3,7 +3,7 @@ import Subj
 from Subj import Sudjects
 from telebot import types
 
-bot = telebot.TeleBot('6074590639:AAEIkX4sLJCfbPAAh25b9BhbKfsn0C_8eeY')
+bot = telebot.TeleBot('your cor recived from botfather')
 @bot.message_handler(commands=['starT'])
 def start(message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=3)
